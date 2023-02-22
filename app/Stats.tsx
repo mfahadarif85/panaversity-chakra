@@ -44,12 +44,15 @@ export default function Stats() {
         py={10}
         fontWeight={"bold"}
       >
-        What is our company doing?
+        Program Highlights
       </chakra.h1>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
-        <StatsCard title={"We serve"} stat={"50,000 people"} />
-        <StatsCard title={"In"} stat={"30 different countries"} />
-        <StatsCard title={"Who speak"} stat={"100 different languages"} />
+        <StatsCard title={"No of Students"} stat={"5000+"} />
+        <StatsCard
+          title={"Cities"}
+          stat={"Karachi, Lahore, Islamabad & Peshawar"}
+        />
+        <StatsCard title={"Duration"} stat={"1.5 years"} />
       </SimpleGrid>
     </Box>
   );

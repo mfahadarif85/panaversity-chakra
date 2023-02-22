@@ -2,6 +2,7 @@ import Features from "./Features";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Outcome from "./Outcome";
 import Stats from "./Stats";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Stats />
       <Features />
+      <Outcome />
       <Footer />
     </>
   );

@@ -25,15 +25,16 @@ export default function Hero() {
           fontSize={{ base: "3xl", sm: "4xl", md: "6xl" }}
           lineHeight={"110%"}
         >
-          Meeting scheduling{" "}
+          Certified{" "}
           <Text as={"span"} color={"orange.400"}>
-            made easy
+            Web 3.0 & Metaverse Developer
           </Text>
         </Heading>
         <Text color={"gray.500"} maxW={"3xl"}>
-          Never miss a meeting. Never be late for one too. Keep track of your
-          meetings and receive smart reminders in appropriate times. Read your
-          smart “Daily Agenda” every morning.
+          A One and Quarter Years Panaverse DAO Earn as you Learn Program
+          Getting Ready for the Next Generation of the Internet Consolidating
+          Web 3.0, Metaverse, Artificial Intelligence (AI), Cloud, Edge, Ambient
+          Computing/IoT, Network Automation, and Bioinformatics Technologies
         </Text>
         <Stack spacing={6} direction={"row"}>
           <Button
